@@ -1,0 +1,59 @@
+#game div {
+  /* border: 1px solid black;
+  width: 15%;
+  height: 200px;
+  margin: 10px; */
+  display: inline-block;
+  width: 15%;
+  height: 330px;
+  margin: 10px;
+  backface-visibility: hidden;
+}
+
+#game div:hover {
+  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.3);
+}
+
+#game div 
+
+#game div.front, #game div.back {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  -webkit-backface-visibility: hidden;
+  backface-visibility: hidden;
+}
+
+.queen {
+  background-image: url("images/QS.png");
+  background-size: cover;
+}
+
+.king {
+  background-image: url("images/KS.png");
+  background-size: cover;
+}
+
+.ace {
+  background-image: url("images/AS.png");
+  background-size: cover;
+}
+
+.jack {
+  background-image: url("images/JH.png");
+  background-size: cover;
+}
+
+.nine {
+  background-image: url("images/9H.png");
+  background-size: cover;
+}
+
+.eight {
+  background-image: url("images/8D.png");
+  background-size: cover;
+}
+
+.card-face-back{
+  background-image: url("images/red_back.png");
+}
