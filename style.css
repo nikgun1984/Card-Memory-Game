@@ -1,27 +1,24 @@
-#game div {
-  /* border: 1px solid black;
-  width: 15%;
-  height: 200px;
-  margin: 10px; */
+*{
+  font-weight: bold;
+  font-style: italic;
+}
+
+#game div{
+  cursor: pointer;
   display: inline-block;
   width: 15%;
   height: 330px;
   margin: 10px;
-  backface-visibility: hidden;
+  border-radius:20px;
+  border:1px solid #bbb;
+  transition: all 0.3s linear;
 }
 
 #game div:hover {
-  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.3);
-}
-
-#game div 
-
-#game div.front, #game div.back {
-  position: absolute;
-  width: 100%;
-  height: 100%;
-  -webkit-backface-visibility: hidden;
-  backface-visibility: hidden;
+    -webkit-box-shadow:rgba(0,0,0,0.8) 0px 5px 15px, inset rgba(0,0,0,0.15) 0px -10px 20px;
+    -moz-box-shadow:rgba(0,0,0,0.8) 0px 5px 15px, inset rgba(0,0,0,0.15) 0px -10px 20px;
+    -o-box-shadow:rgba(0,0,0,0.8) 0px 5px 15px, inset rgba(0,0,0,0.15) 0px -10px 20px;
+    box-shadow:rgba(0,0,0,0.8) 0px 5px 15px, inset rgba(0,0,0,0.15) 0px -10px 20px;
 }
 
 .queen {
@@ -57,3 +54,47 @@
 .card-face-back{
   background-image: url("images/red_back.png");
 }
+
+h1 {
+  margin: 30px;
+  display: inline-block;
+}
+
+.btn {
+  margin: 25px;
+  width: 110px;
+  height: 50px;
+  cursor: pointer;
+  transition: box-shadow linear;
+  border-radius: 10px;
+  background-color: #42cc8c;
+  font-size: 2em;
+}
+
+.btn:hover{
+    box-shadow: 0 5px 5px rgba(0, 0, 0, 0.2);
+}
+
+.visible{
+  visibility: visible;
+}
+
+.hidden{
+  visibility: hidden;
+}
+
+.heading{
+  display: inline-flex;
+}
+
+.card-count{
+  width: 80px;
+  font-size: 25px;
+}
+
+label{
+  margin:30px;
+  font-size: 2em;
+}
+
+
