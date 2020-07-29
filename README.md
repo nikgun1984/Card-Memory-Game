@@ -11,4 +11,4 @@ The object of the game is to turn over pairs of matching cards. The game is also
 
 Link to Demo Game https://nikgun1984.github.io/Card-Memory-Game/.
 
-Note: I only used 6 cards in total so there will be repeats if you wanted to use above 12 cards.
+**Note**: I only used 6 cards in total so there will be repeats if you wanted to use above 12 cards.
